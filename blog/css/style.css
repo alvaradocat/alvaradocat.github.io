@@ -287,7 +287,9 @@ button a:focus,
     text-decoration:none;
     color:#A66641;
 }
-
+#buttontext {
+    color:#fbf2e0;
+}
 button a:hover{
     text-decoration:none;
     color:#f8d287;
