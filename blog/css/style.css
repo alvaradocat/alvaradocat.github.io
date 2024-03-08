@@ -275,11 +275,12 @@ button{
     font-size: 2rem;
     border-radius: 0.2rem;
     border-radius: .5rem;
+    border-style:none;
     color:#fbf2e0;
     background-color:#702121;
     box-shadow: 5px 5px 4px -1px #888;
     text-shadow: 4px 4px 4px #432323;
-    text-decoration:none;
+    
 }
 
 button a:focus,
@@ -287,9 +288,7 @@ button a:focus,
     text-decoration:none;
     color:#A66641;
 }
-#buttontext {
-    color:#fbf2e0;
-}
+
 button a:hover{
     text-decoration:none;
     color:#f8d287;
