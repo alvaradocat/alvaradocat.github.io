@@ -247,12 +247,8 @@ nav a:focus, a:hover{
     color: #262124;
 }
 
-nav a:visited{
-    color:#97A4A6;
-}
-
 nav a:active{
-    color:#97A4A6;
+    color:#262124;
 }
 
 nav {
@@ -279,10 +275,12 @@ button{
     background-color:#702121;
     box-shadow: 5px 5px 4px -1px #888;
     text-shadow: 4px 4px 4px #432323;
+    text-decoration:none
 }
 
 button a:visited{
-    color:#fbf2e0;
+    text-decoration:none;
+    color: #fbf2e0;
 }
 
 button a:focus{
