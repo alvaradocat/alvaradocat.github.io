@@ -227,13 +227,6 @@ figure {
 
 /* links and nav */
 
-a {
-    text-decoration: none;
-}
-
-footer a{
-    color: #97A4A6;
-}
 
 nav a {
     display: inline-block;
@@ -243,17 +236,7 @@ nav a {
     color: #405559;
 
 }
-nav a:focus, a:hover{
-    color: #5e667b;
-}
 
-nav a:active{
-    color:#262124;
-}
-
-nav a:visited {
-    color: #405559;
-}
 
 nav {
     border-top: 1px solid #97A4A6;
@@ -280,32 +263,19 @@ button{
     background-color:#702121;
     box-shadow: 5px 5px 4px -1px #888;
     text-shadow: 4px 4px 4px #432323;
+    cursor: pointer;
+    transition-duration: 0.3s;
     
 }
 
-button a:focus,
-    a:visited{
-    text-decoration:none;
-    color:#A66641;
+button:focus, button:hover {
+    background-color: #fbf2e0;
+    color: #702121;
+    text-shadow: none;
 }
 
-button a:hover{
-    text-decoration:none;
-    color:#f8d287;
+button:active {
+    background-color: #f8d58f;
 }
 
-a:visited{
-    text-decoration:none;
-    color:#A66641;
-}
 
-a:focus,
-a:hover{
-    text-decoration:none;
-    color: #262124;
-}
-
-a:active{
-    text-decoration: none;
-    color:#A66641;
-}
